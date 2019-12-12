@@ -438,7 +438,7 @@ namespace DevExtreme.AspNet.Data.Tests {
 
             item = Load(
                 preSelect: new[] { "a", "b" },
-                select: new[] { "b", "c" }
+                select: new[] { "B", "c" }
             );
 
             Assert.Equal(1, item.Keys.Count);
